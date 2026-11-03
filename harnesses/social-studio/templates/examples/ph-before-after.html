@@ -1,0 +1,80 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<style>
+.P{top:214px;width:560px;height:492px;padding:22px}
+.lab{display:inline-block;padding:5px 14px;border-radius:99px;font-weight:800;font-size:13px;letter-spacing:2px}
+.lab.b{color:#ff9b9b;background:rgba(255,100,100,.12);border:1px solid rgba(255,120,120,.55)}
+.lab.af{color:#ffb21a;background:rgba(255,165,26,.12);border:1px solid rgba(255,165,26,.55)}
+.tabs{display:flex;gap:6px;margin-top:14px}
+.tab{display:flex;align-items:center;gap:6px;height:30px;padding:0 9px;border-radius:8px 8px 0 0;background:rgba(255,255,255,.07);
+border:1px solid rgba(165,140,255,.25);font-size:12px;font-weight:600;color:#cfc6f5;flex:1;min-width:0}
+.tab img{width:15px;height:15px;flex:none}.tab.on{background:rgba(255,255,255,.16);color:#fff}
+.grid{position:relative;display:grid;grid-template-columns:repeat(3,160px);gap:14px;margin-top:12px}
+.c{height:130px;border-radius:12px;background:rgba(255,255,255,.07);border:1px solid rgba(165,140,255,.28);padding:10px 12px}
+.c .h{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:800}
+.c .h img{width:18px;height:18px;background:#fff;border-radius:5px;padding:2px}
+.c .n{font-size:22px;font-weight:800;margin-top:8px}.c .n s{font-size:12px;text-decoration:none;color:#ff9b9b;font-weight:600;margin-left:4px}
+.bars{display:flex;align-items:flex-end;gap:5px;height:40px;margin-top:6px}.bars i{flex:1;background:rgba(190,170,255,.55);border-radius:3px 3px 0 0}
+svg.t{position:absolute;left:0;top:0;pointer-events:none}
+.q{position:absolute;width:26px;height:26px;border-radius:50%;background:#ff6b6b;color:#fff;font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;margin:-13px 0 0 -13px;box-shadow:0 0 12px rgba(255,90,90,.6)}
+.note{margin-top:16px;padding:12px 14px;border-radius:12px;border:1.5px dashed rgba(255,130,130,.6);background:rgba(255,100,100,.07);font-size:15px;font-weight:600;color:#ffd0d0;line-height:1.5}
+.note b{color:#fff}
+.u{margin-left:auto;width:max-content;max-width:100%;padding:11px 18px;border-radius:16px 16px 4px 16px;background:rgba(255,255,255,.12);border:1px solid rgba(190,170,255,.4);font-size:17px;font-weight:600;margin-top:20px}
+.a{display:flex;gap:12px;margin-top:26px}.a h2{font-size:21px;font-weight:800;line-height:1.25;margin-top:4px}
+.row{display:flex;align-items:center;gap:12px;height:60px;margin-top:14px;padding:0 12px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(165,140,255,.28)}
+.row b{font-size:16px;font-weight:800;display:block}.row small{font-size:13px;color:#b9aef0;font-weight:500}
+.row .m{margin-left:auto;text-align:right;color:#ffb21a;font-weight:800;font-size:16px}
+.src{margin-top:22px;padding:12px 14px;border-radius:12px;background:rgba(255,165,26,.13);border:1px solid rgba(255,165,26,.55);display:flex;align-items:center;gap:10px;font-size:14.5px;font-weight:700}
+.src .tile{position:static;width:28px;height:28px;border-radius:8px;flex:none}.src .tile img{width:17px;height:17px}
+.src span.t{margin-left:6px}
+.arrow{position:absolute;left:615px;top:440px;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#ffa51a,#ff7a1a);color:#1a0b5a;
+font-weight:800;font-size:22px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(255,140,30,.6)}
+.foot{position:absolute;bottom:9px;left:0;right:0;text-align:center;font-size:11.5px;color:rgba(185,174,240,.7);letter-spacing:.4px}
+</style></head><body>
+<h1>Stop tab-hopping. Just <span class="hl">ask.</span></h1>
+<div class="sub">One question replaces six dashboards and a spreadsheet.</div>
+
+<div class="glass P" style="left:50px">
+ <span class="lab b">BEFORE</span>
+ <div class="tabs">
+  <div class="tab on"><img src="assets/logo_meta.svg">Meta</div>
+  <div class="tab"><img src="assets/logo_google-ads.png">Google</div>
+  <div class="tab"><img src="assets/logo_tiktok.svg">TikTok</div>
+  <div class="tab"><img src="assets/logo_google-analytics.svg">GA4</div>
+  <div class="tab"><img src="assets/logo_shopify.svg">Shopify</div>
+  <div class="tab"><img src="assets/logo_google-sheets.svg">Sheets</div>
+ </div>
+ <div class="grid">
+  <div class="c"><div class="h"><img src="assets/logo_meta.svg">Meta Ads</div><div class="n">1.9<s>ROAS</s></div><div class="bars"><i style="height:70%"></i><i style="height:55%"></i><i style="height:60%"></i><i style="height:35%"></i><i style="height:30%"></i></div></div>
+  <div class="c"><div class="h"><img src="assets/logo_google-ads.png">Google Ads</div><div class="n">3.2<s>ROAS</s></div><div class="bars"><i style="height:50%"></i><i style="height:62%"></i><i style="height:58%"></i><i style="height:64%"></i><i style="height:60%"></i></div></div>
+  <div class="c"><div class="h"><img src="assets/logo_tiktok.svg">TikTok Ads</div><div class="n">0.8<s>ROAS</s></div><div class="bars"><i style="height:30%"></i><i style="height:45%"></i><i style="height:25%"></i><i style="height:40%"></i><i style="height:22%"></i></div></div>
+  <div class="c"><div class="h"><img src="assets/logo_google-analytics.svg">GA4</div><div class="n">2.4%<s>CVR</s></div><div class="bars"><i style="height:60%"></i><i style="height:52%"></i><i style="height:48%"></i><i style="height:40%"></i><i style="height:38%"></i></div></div>
+  <div class="c"><div class="h"><img src="assets/logo_shopify.svg">Shopify</div><div class="n">$48K<s>revenue</s></div><div class="bars"><i style="height:65%"></i><i style="height:60%"></i><i style="height:50%"></i><i style="height:44%"></i><i style="height:40%"></i></div></div>
+  <div class="c"><div class="h"><img src="assets/logo_google-sheets.svg">Sheets</div><div class="n">???<s>#N/A</s></div><div class="bars"><i style="height:35%"></i><i style="height:70%"></i><i style="height:20%"></i><i style="height:55%"></i><i style="height:45%"></i></div></div>
+  <svg class="t" width="516" height="274" viewBox="0 0 516 274">
+   <g fill="none" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round">
+    <path d="M80,65 C150,150 180,170 254,209"/><path d="M254,65 C320,120 400,150 428,209"/>
+    <path d="M428,65 C330,110 160,130 80,209"/><path d="M254,209 C280,150 340,100 428,65"/>
+    <path d="M80,209 C160,230 330,240 428,209"/>
+   </g>
+  </svg>
+  <div class="q" style="left:165px;top:140px">?</div><div class="q" style="left:343px;top:110px">?</div><div class="q" style="left:260px;top:238px">?</div>
+ </div>
+ <div class="note"><b>Export CSV → paste into Sheets → VLOOKUP…</b><br>…and the numbers still don't match.</div>
+</div>
+
+<div class="arrow">→</div>
+
+<div class="glass P" style="left:660px;border-color:rgba(255,165,26,.7);box-shadow:0 20px 70px rgba(6,2,50,.6),0 0 40px rgba(255,140,30,.22)">
+ <span class="lab af">AFTER</span>
+ <div class="u">Why did ROAS drop this week across all channels?</div>
+ <div class="a"><img class="av" src="assets/center.png"><div style="flex:1">
+  <h2>Two causes explain <span class="o">80% of the drop</span>.</h2>
+  <div class="row"><div class="tile sm"><img src="assets/logo_meta.svg"></div><div><b>Meta · Prospecting</b><small>Audience fatigue</small></div><div class="m">CPM +22%</div></div>
+  <div class="row"><div class="tile sm"><img src="assets/logo_shopify.svg"></div><div><b>Shopify · Checkout</b><small>Drop-off after shipping step</small></div><div class="m">CVR −0.9 pts</div></div>
+  <div class="src"><div class="tile"><img src="assets/logo_meta.svg"></div><div class="tile"><img src="assets/logo_google-ads.png"></div><div class="tile"><img src="assets/logo_tiktok.svg"></div><div class="tile"><img src="assets/logo_google-analytics.svg"></div><div class="tile"><img src="assets/logo_shopify.svg"></div><div class="tile"><img src="assets/logo_google-sheets.svg"></div><span class="t">Orphex MCP joined all 6 sources</span></div>
+ </div></div>
+ <div class="foot">ILLUSTRATIVE EXAMPLE</div>
+</div>
+</body></html>

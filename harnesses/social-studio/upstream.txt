@@ -1,0 +1,12 @@
+# Optional design repos for this harness. NOT vendored. Verify license + current state before use.
+# format: name | how to add | what it gives
+simple-icons/simple-icons | npm i simple-icons  (or cdn.simpleicons.org/<slug>) | CC0 brand SVG logos; /logo-collect primary source
+pheralb/svgl | https://github.com/pheralb/svgl (browse/copy SVGs, check each brand's usage terms) | Extra brand logos incl. light/dark variants
+lucide-icons/lucide | npm i lucide-static | Consistent UI icons for cards/stickers
+vercel/satori | npm i satori @resvg/resvg-js | HTML/JSX -> SVG/PNG without a browser; fast batch rendering in CI
+puppeteer/puppeteer | npm i puppeteer | Programmatic rendering when Edge/Chrome binary is not available
+remotion-dev/remotion | npx create-video@latest | Code-driven video (check Remotion company license)
+rough-stuff/rough | npm i roughjs | Hand-drawn shapes/underlines for the sticker look
+google/fonts (fonts.google.com) | link tag | Figtree, IBM Plex Mono, alternatives
+getopenscreen/openscreen | https://github.com/getopenscreen/openscreen (releases'den uygulama indir) | MIT, bakımda (doğrulandı 2026-11-03). Ekran kaydı -> otomatik zoom, imleç efekti, kırpma, altyazı, MP4/GIF/9:16 export. Screen Studio alternatifi; ürün demo videosu için.
+siddharthvaddem/openscreen | (orijinal) | MIT ama ARŞİVLENMİŞ; yerine getopenscreen fork'unu kullan.

@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<style>
+.card{top:222px;height:480px;padding:24px;width:350px}
+.step{display:flex;align-items:center;gap:10px;font-weight:800;font-size:15px;letter-spacing:1.5px;color:#ffb21a}
+.step i{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#ffa51a,#ff7a1a);color:#1a0b5a;font-style:normal;display:flex;align-items:center;justify-content:center;font-size:15px;letter-spacing:0}
+.card h3{font-size:25px;font-weight:800;margin-top:12px;line-height:1.2}
+.card p{font-size:16px;color:#b9aef0;font-weight:500;margin-top:6px;line-height:1.35}
+.lg{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+.lg .tile{position:relative;width:100%;height:52px}.lg .tile img{width:28px;height:28px}
+.lg .ck{position:absolute;right:-5px;top:-5px;width:18px;height:18px;border-radius:50%;background:#2fcf8a;color:#06331f;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.more{margin-top:16px;font-size:14.5px;font-weight:700;color:#ffb21a;text-align:center}
+.as{display:flex;align-items:center;gap:12px;margin-top:9px;padding:6px 12px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(165,140,255,.28);font-weight:800;font-size:16px}
+.as .ico{width:36px;height:36px;border-radius:10px;overflow:hidden;position:relative;flex:none}
+.as .ico img{position:absolute;inset:0;width:100%;height:100%}.as .ico .g{inset:auto;left:8px;top:8px;width:20px;height:20px}
+.as .add{margin-left:auto;font-size:13px;color:#1a0b5a;background:linear-gradient(90deg,#ffa51a,#ff7a1a);padding:5px 11px;border-radius:8px;font-weight:800}
+.as .on{margin-left:auto;font-size:13px;color:#5be3a0;font-weight:800}
+.inp{margin-top:22px;padding:14px 14px 12px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(190,170,255,.45);font-size:17px;font-weight:600;line-height:1.35}
+.inp .bar{display:flex;align-items:center;margin-top:12px;font-size:13px;color:#b9aef0;font-weight:600}
+.inp .go{margin-left:auto;width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#ffa51a,#ff7a1a);color:#1a0b5a;font-weight:800;display:flex;align-items:center;justify-content:center}
+.caret{display:inline-block;width:2px;height:18px;background:#ffb21a;vertical-align:-3px;margin-left:2px}
+.mini{display:flex;gap:10px;margin-top:16px;align-items:flex-start}
+.mini .av{width:30px;height:30px}.mini div{font-size:15px;font-weight:600;line-height:1.4;color:#e4dcff}
+.arr{position:absolute;top:442px;width:40px;text-align:center;color:#d9ccff;font-size:26px;font-weight:800;filter:drop-shadow(0 0 4px rgba(140,110,255,.8))}
+</style></head><body>
+<h1>Up and running in <span class="hl">minutes.</span></h1>
+<div class="sub">Connect your platforms once, then ask from the assistant you already use.</div>
+
+<div class="glass card" style="left:60px">
+ <div class="step"><i>1</i>CONNECT</div>
+ <h3>Link your platforms</h3>
+ <p>Authorize your ad, analytics and store accounts. Read access first.</p>
+ <div class="lg">
+  <div class="tile"><img src="assets/logo_meta.svg"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_google-ads.png"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_tiktok.svg"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_google-analytics.svg"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_shopify.svg"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_linkedin.png"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_hubspot.svg"><span class="ck">✓</span></div>
+  <div class="tile"><img src="assets/logo_pinterest.svg"><span class="ck">✓</span></div>
+ </div>
+ <div class="more">+ 65 more sources</div>
+</div>
+<div class="arr" style="left:415px">›</div>
+
+<div class="glass card" style="left:460px;border-color:rgba(255,165,26,.7);box-shadow:0 20px 70px rgba(6,2,50,.6),0 0 40px rgba(255,140,30,.22)">
+ <div class="step"><i>2</i>ADD</div>
+ <h3>Add Orphex to your AI</h3>
+ <p>Works with any MCP assistant.</p>
+ <div class="as"><div class="ico"><img src="assets/r1.png"></div>ChatGPT<span class="add">Add</span></div>
+ <div class="as"><div class="ico"><img src="assets/r2.png"></div>Claude<span class="on">✓ Added</span></div>
+ <div class="as"><div class="ico"><img src="assets/r3.png"></div>Copilot<span class="add">Add</span></div>
+ <div class="as"><div class="ico"><img src="assets/blank.png"><img class="g" src="assets/ai_grok.svg"></div>Grok<span class="add">Add</span></div>
+ <div class="as"><div class="ico"><img src="assets/blank.png"><img class="g" src="assets/ai_cursor.svg"></div>Cursor<span class="add">Add</span></div>
+</div>
+<div class="arr" style="left:815px">›</div>
+
+<div class="glass card" style="left:860px">
+ <div class="step"><i>3</i>ASK</div>
+ <h3>Ask anything</h3>
+ <p>Plain words in, numbers and next steps out.</p>
+ <div class="inp">How did my campaigns perform last week?<span class="caret"></span>
+  <div class="bar">Orphex connected<span class="go">↑</span></div></div>
+ <div class="mini"><img class="av" src="assets/center.png"><div>Spend is up 12% while ROAS held at 2.6. Here is the channel breakdown…</div></div>
+</div>
+</body></html>

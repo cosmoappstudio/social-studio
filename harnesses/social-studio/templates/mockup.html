@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+/* Ekran görüntüsü mockup'ı: DEVICE seç (browser | phone), SHOT = ekran görüntüsü yolu.
+   Düz stil: sert gölge, gradient/blur yok. Boyut: 1080x1080 */
+body{width:1080px;height:1080px}
+.stage{position:absolute;inset:0}
+h1{position:absolute;left:60px;top:70px;font-size:84px;font-weight:900;line-height:1;letter-spacing:-.04em;max-width:900px}
+/* browser */
+.browser{position:absolute;left:90px;top:360px;width:900px;height:620px;background:#fff;border:3px solid var(--ink);border-radius:14px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.bar{height:46px;border-bottom:3px solid var(--ink);display:flex;align-items:center;gap:10px;padding:0 16px;background:var(--paper)}
+.dot{width:14px;height:14px;border-radius:50%;border:2px solid var(--ink)}.dot:nth-child(1){background:var(--or)}.dot:nth-child(2){background:var(--mint)}.dot:nth-child(3){background:var(--lav)}
+.url{margin-left:14px;flex:1;height:26px;border:2px solid var(--ink);border-radius:99px;font:500 14px "IBM Plex Mono",monospace;display:flex;align-items:center;padding:0 14px;color:var(--ind)}
+.browser img.shot{width:100%;height:calc(100% - 46px);object-fit:cover;object-position:top left;display:block}
+/* phone (kullanmak için .browser'ı gizle, .phone'u göster) */
+.phone{display:none;position:absolute;left:340px;top:250px;width:400px;height:760px;background:#fff;border:3px solid var(--ink);border-radius:56px;box-shadow:14px 14px 0 var(--ink);overflow:hidden}
+.phone:before{content:"";position:absolute;left:50%;top:14px;width:120px;height:28px;margin-left:-60px;background:var(--ink);border-radius:99px;z-index:2}
+.phone img.shot{width:100%;height:100%;object-fit:cover;object-position:top}
+.tag{position:absolute;right:60px;top:300px;transform:rotate(6deg)}
+</style></head><body class="light"><div class="stage">
+<h1>Ask. Approve. <span class="hk">Done.</span></h1>
+<div class="browser"><div class="bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i><div class="url">claude.ai</div></div><img class="shot" src="assets/shot.png"></div>
+<div class="phone"><img class="shot" src="assets/shot.png"></div>
+<div class="stk tag" style="background:var(--or);font-size:30px">REAL SCREEN</div>
+</div></body></html>

@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<style>
+.sw{left:70px;top:222px;width:410px;height:482px;padding:22px}
+.hd{font-size:13px;letter-spacing:2px;font-weight:800;color:#b9aef0}
+.ws{display:flex;align-items:center;gap:12px;margin-top:12px;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(165,140,255,.28)}
+.ws.on{background:rgba(255,165,26,.13);border-color:rgba(255,165,26,.7);box-shadow:0 0 24px rgba(255,140,30,.2)}
+.ws .lt{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#fff;flex:none}
+.ws b{display:block;font-size:17px;font-weight:800}.ws small{font-size:13px;color:#b9aef0;font-weight:500}
+.ws .chips{margin-left:auto;display:flex}.ws .chips img{width:24px;height:24px;background:#fff;border-radius:6px;padding:3px;margin-left:5px}
+.add{margin-top:14px;padding:12px;border-radius:14px;border:1.5px dashed rgba(190,170,255,.5);text-align:center;font-weight:700;color:#cfc6f5;font-size:15px}
+.ch{left:560px;top:222px;width:650px;height:482px;padding:24px 28px}
+.top{display:flex;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid rgba(165,140,255,.25)}
+.top .lt{width:36px;height:36px;border-radius:10px;background:#7a5cff;display:flex;align-items:center;justify-content:center;font-weight:800}
+.top b{font-size:18px;font-weight:800}.top small{display:block;font-size:13px;color:#b9aef0;font-weight:500}
+.top .chips{margin-left:auto;display:flex}.top .chips img{width:30px;height:30px;background:#fff;border-radius:8px;padding:5px;margin-left:6px}
+.u{margin:18px 0 0 auto;width:max-content;padding:11px 18px;border-radius:16px 16px 4px 16px;background:rgba(255,255,255,.12);border:1px solid rgba(190,170,255,.4);font-size:18px;font-weight:600}
+.a{display:flex;gap:14px;margin-top:20px}.a h2{font-size:23px;font-weight:800;line-height:1.25;margin-top:4px}
+.row{display:flex;align-items:center;gap:12px;height:56px;margin-top:11px;padding:0 14px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(165,140,255,.28)}
+.row b{font-size:16.5px;font-weight:800;display:block}.row small{font-size:13.5px;color:#b9aef0;font-weight:500}
+.row .m{margin-left:auto;text-align:right;color:#ffb21a;font-weight:800;font-size:17px}
+.ft{margin-top:16px;font-size:14px;color:#b9aef0;font-weight:600;text-align:center}
+.foot{position:absolute;bottom:9px;left:0;right:0;text-align:center;font-size:11.5px;color:rgba(185,174,240,.7);letter-spacing:.4px}
+</style></head><body>
+<h1>Every client gets its <span class="hl">own workspace.</span></h1>
+<div class="sub">Switch in one click and keep each account's data in its own place.</div>
+
+<div class="glass sw">
+ <div class="hd">WORKSPACES</div>
+ <div class="ws"><div class="lt" style="background:#2f7bff">A</div><div><b>Acme Retail</b><small>5 platforms</small></div><div class="chips"><img src="assets/logo_meta.svg"><img src="assets/logo_google-ads.png"><img src="assets/logo_shopify.svg"></div></div>
+ <div class="ws on"><div class="lt" style="background:#7a5cff">N</div><div><b>Northwind Apps</b><small>6 platforms</small></div><div class="chips"><img src="assets/logo_apple-ads.svg"><img src="assets/logo_tiktok.svg"><img src="assets/logo_appsflyer.png"></div></div>
+ <div class="ws"><div class="lt" style="background:#18b383">B</div><div><b>Bluebird Travel</b><small>4 platforms</small></div><div class="chips"><img src="assets/logo_google-analytics.svg"><img src="assets/logo_bing-ads.png"><img src="assets/logo_youtube.svg"></div></div>
+ <div class="ws"><div class="lt" style="background:#e0527a">P</div><div><b>Pixel Games</b><small>7 platforms</small></div><div class="chips"><img src="assets/logo_unity-ads.svg"><img src="assets/logo_admob.svg"><img src="assets/logo_singular.png"></div></div>
+ <div class="add">+ Add workspace</div>
+</div>
+
+<div class="glass ch" style="border-color:rgba(255,165,26,.7);box-shadow:0 20px 70px rgba(6,2,50,.6),0 0 40px rgba(255,140,30,.22)">
+ <div class="top"><div class="lt">N</div><div><b>Northwind Apps</b><small>Active workspace</small></div><div class="chips"><img src="assets/logo_apple-ads.svg"><img src="assets/logo_tiktok.svg"><img src="assets/logo_appsflyer.png"><img src="assets/logo_google-ads.png"></div></div>
+ <div class="u">Which channel brings the cheapest installs this month?</div>
+ <div class="a"><img class="av" src="assets/center.png"><div style="flex:1">
+  <h2>Apple Ads wins at <span class="o">$1.80 CPI</span>, 34% below TikTok.</h2>
+  <div class="row"><div class="tile sm"><img src="assets/logo_apple-ads.svg"></div><div><b>Apple Ads</b><small>High-intent search installs</small></div><div class="m">$1.80 CPI</div></div>
+  <div class="row"><div class="tile sm"><img src="assets/logo_google-ads.png"></div><div><b>Google Ads · UAC</b><small>Scales well, mid retention</small></div><div class="m">$2.15 CPI</div></div>
+  <div class="row"><div class="tile sm"><img src="assets/logo_tiktok.svg"></div><div><b>TikTok</b><small>Cheap reach, weaker retention</small></div><div class="m">$2.73 CPI</div></div>
+ </div></div>
+ <div class="foot">ILLUSTRATIVE EXAMPLE</div>
+</div>
+</body></html>

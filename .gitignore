@@ -1,0 +1,5 @@
+.DS_Store
+*.tmp
+.harness-claude.tmp
+node_modules/
+out/
