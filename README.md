@@ -116,7 +116,7 @@ Beğendiğiniz mevcut postların görsellerini koyun. Tasarım ajanı tonu ve d�
 `teaser-*` ve `live-*` dosyaları güncel, düz stilde şablonlardır. `ph-*` dosyaları ilk tur Product Hunt galeri düzenleridir (koyu/cam stil); yapıyı koruyup düz stile çevirin. Her şablon `assets/` altındaki logoları kullanır.
 
 ### Kit boşken ne olur?
-Harness geçici (Orphex'ten türetilmiş) değerlerle çalışır ve her teslimde "resmi kit yok" notu düşer. Resmi kit eklendiğinde kit kazanır.
+Harness geçici değerlerle çalışır ve her teslimde "resmi kit yok" notu düşer. Resmi kit eklendiğinde kit kazanır.
 
 ---
 
